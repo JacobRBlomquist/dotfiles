@@ -1,0 +1,8 @@
+#!/bin/sh
+# https://unix.stackexchange.com/questions/73622/
+
+
+# Create random filename
+[ -z "$output" ] && output="/home/jacob/Videos/RECORDING-$(date +'%m-%d-%y-%H-%M-%S').avi"
+
+ffmpeg -f x11grab -s 1680x1050 -r 30 -i :0.0 -qscale 0 $output

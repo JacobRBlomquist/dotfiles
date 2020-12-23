@@ -1,0 +1,33 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=15
+
+
+[weather]
+color=#a4c2f4
+command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=60
+
+[weather2]
+color=#a4c2f4
+website=https://wttr.in
+command=xdg-open $website
+full_text=
+
+[ip]
+#command=hostname -i | awk '{ print "IP:" $1}'
+command=echo "  $(ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1')"
+interval=3600
+color=#ffda8a
+
+[time]
+command= echo " $(date +"%T-%m/%d")"
+interval=5
