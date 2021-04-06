@@ -1,0 +1,7 @@
+[2021-03-02 13:33:57.150] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-03-02 14:54:49.913] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-03-02 14:55:31.678] [sharedprocess] [info] Downloaded extension: ms-python.python undefined
+[2021-03-02 14:55:38.768] [sharedprocess] [info] Extracted extension to /home/jacob/.vscode-oss/extensions/.ms-python.python-2020.10.332292344: ms-python.python
+[2021-03-02 14:55:38.768] [sharedprocess] [info] Renamed to /home/jacob/.vscode-oss/extensions/ms-python.python-2020.10.332292344
+[2021-03-02 14:55:38.772] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-03-02 14:55:38.777] [sharedprocess] [info] Extensions installed successfully: ms-python.python

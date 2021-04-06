@@ -1,0 +1,9 @@
+quit
+list
+play 
+cd Music
+ls
+pwd
+cd ..
+help
+open
